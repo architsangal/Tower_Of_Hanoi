@@ -13,7 +13,7 @@ void TowerOfHanoi(int n,char start,char mid,char end)
 }
 int main(void)
 {
-    int n = 4;
+    int n = 4; // can be taken as an input
     TowerOfHanoi(n,'A','B','C');
     return 0;
 }
